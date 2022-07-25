@@ -10,4 +10,4 @@ def mul(a, b):
     print(a*b)
 
 
-mul(250,421)
+mul(a,b)
