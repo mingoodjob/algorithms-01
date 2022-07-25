@@ -1,5 +1,5 @@
 h = 22
-m = 20
+m = 55
 
 def alram(h, m):
     if m < 45:
@@ -9,6 +9,9 @@ def alram(h, m):
     else :
         m -= 45
 
-    return h, int(-m)
+    if m < 0:
+        m = -m
+
+    return h, int(m)
 
 print(alram(h, m))
